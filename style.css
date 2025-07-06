@@ -1,6 +1,16 @@
 body {
     background-color: #FFFDD0;
 }
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+#griddad {
+    display: flex;
+    justify-content: center;
+}
+
 #grid {
     display: flex;
     flex-wrap: wrap;
@@ -12,4 +22,15 @@ body {
     border: 1px black solid;
     height: 25px;
     width: 25px;
+}
+
+#buttons {
+    display: flex;
+    justify-content: center;
+}
+button {
+    
+    margin: 10px;
+    background-color: white;
+    
 }
