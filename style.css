@@ -1,0 +1,14 @@
+body {
+    background-color: #FFFDD0;
+}
+#grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 440px;
+}
+
+.square{
+    border: 1px black solid;
+    height: 25px;
+    width: 25px;
+}
