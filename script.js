@@ -64,7 +64,7 @@ function gridGenerator() {
 
     function resetGrid() {
         reset.addEventListener('click', () => {
-        square.style.backgroundColor = "#FFFDD0"
+        square.style.backgroundColor = "white"
         shaker.currentTime = 0;
         shaker.play()
         })

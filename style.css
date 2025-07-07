@@ -2,26 +2,39 @@ body {
     background-color: #FFFDD0;
 }
 h1 {
+    background-color: red;
     display: flex;
     justify-content: center;
+    color: gold;
 }
 
-#shell{
-    
+#outershell {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 #griddad {
-    border: red 24px solid;
-    display: flex;
+    background-color: red;
+    padding-top: 48px;
+    padding-bottom: 80px;
+    padding-left: 164px;
+    padding-right: 164px;
+    border-radius: 24px;
     justify-content: center;
 }
 
 #grid {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 128px;
+    padding-right: 128px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    
+    background-color: white;
+    border-radius: 16px;
     width: 450px;
     height: 450px;
 }
@@ -32,11 +45,13 @@ h1 {
 
 #buttons {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 button {
-    margin: 10px;
+    border-radius: 8px;
+    margin: 32px;
+    padding: 10px 24px;
+    font-size: large;
     background-color: white;
-    
 }
